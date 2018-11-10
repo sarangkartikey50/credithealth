@@ -57,7 +57,7 @@ export default class LengthOfCreditHistory extends Component {
                     <span style={{fontSize: '22px', color: '#777', marginTop: '-2px', marginRight: '1em'}}>|</span>
                     <RangeIndicator />
                 </div>
-                <div><p style={{fontWeight: '500', color: '#777', marginTop: '1em', float: 'right'}}>*Minimum credit age should 6 months.</p></div>
+                <div><p style={{fontWeight: '500', color: '#777', marginTop: '1em', float: 'right'}}>*Minimum credit age should be 6 months.</p></div>
                 <Recommendation data={data} />
             </div>
         );

@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ReferenceLine } from 'recharts';
 import { Icon, Image, Input, Label, Select, Button, Modal, Header } from 'semantic-ui-react';
-import Slider from 'rc-slider';
 import happyIcon from '../resources/images/icons/happy.png';
 import sadIcon from '../resources/images/icons/sad.png';
-import '../../node_modules/rc-slider/assets/index.css';
 
 const options = [
     { key: 'AUD', text: 'AUD', value: 'AUD' },

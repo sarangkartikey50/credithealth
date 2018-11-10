@@ -65,7 +65,7 @@ export default class Home extends Component{
                     </div>
                     <div>
                         <h1 className="main-body-header">
-                            Contributing Factors for cScore
+                            Contributing Factors for credit score
                         </h1>
                     </div>
                     <div style={{margin: '3em 0'}}>

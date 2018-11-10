@@ -6,8 +6,8 @@
 
 .floating-recommendation-button button{
     box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px !important;
-    background: #EB3349 !important;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F45C43, #EB3349) !important;  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F45C43, #EB3349) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #5C258D !important;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4389A2, #5C258D) !important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4389A2, #5C258D) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: white !important;
 }
