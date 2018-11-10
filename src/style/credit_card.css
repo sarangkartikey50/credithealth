@@ -1,0 +1,32 @@
+.gradient1 {
+    background: #FF416C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0 1px 50px rgba(0, 0, 0, 0.2) !important;
+}
+
+.gradient2{
+    background: #00B4DB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    box-shadow: 0 1px 50px rgba(0, 0, 0, 0.2) !important;
+}
+
+.credit-card{
+    width: 400px;
+    padding: 2em;
+    color: white !important;
+    border-radius: 10px;
+}
+
+.credit-card-field{
+    margin-bottom: 0px;
+    font-weight: 200;
+    font-size: 9pt;
+}
+
+.credit-card-value{
+    margin-bottom: 10px !important;
+    font-weight: 600;
+}
