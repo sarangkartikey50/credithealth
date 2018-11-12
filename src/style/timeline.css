@@ -34,10 +34,11 @@
     color: #666;
 }
 
-.timeline-content-transactions{
+.timeline-content-transactions {
     margin: 15px -32px -22px -32px;
     padding-left: 24px;
     border: 2px solid #efefef;
+    background: #eeeef8;
 }
 
 /* The actual timeline (the vertical ruler) */

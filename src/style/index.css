@@ -126,6 +126,6 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .ui.divider:not(.vertical):not(.horizontal) {
-  border-top: 1px solid rgba(34,36,38,.15);
+  border-top: 1px solid #efefef;
   /* border-bottom: 1px solid rgba(255,255,255,.1); */
 }
