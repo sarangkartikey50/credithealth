@@ -26,45 +26,6 @@ export default class Home extends Component{
                 <div>
                     <div>
                         <h1 className="main-body-header">
-                            Credometer&nbsp;
-                            <Popup
-                                style={{border: 'none'}}
-                                trigger={
-                                    <Icon style={{fontSize: '20px', color: '#8884d8'}} name="info circle" />
-                                }
-                                basic
-                            >
-                                <List>
-                                    <List.Item>
-                                        <div style={{display: 'inline-flex', alignItems: 'center'}}>
-                                            <div style={{height: '20px', width: '20px', borderRadius: '10px', background: 'red', marginRight: '1em'}}></div> 
-                                            Credit score is &nbsp;<b>very low</b>.
-                                        </div>
-                                    </List.Item>
-                                    <List.Item>
-                                        <div style={{display: 'inline-flex', alignItems: 'center'}}>
-                                            <div style={{height: '20px', width: '20px', borderRadius: '10px', background: 'orange', marginRight: '1em'}}></div> Credit score is  &nbsp;<b> average</b>.
-                                        </div>
-                                    </List.Item>
-                                    <List.Item>
-                                        <div style={{display: 'inline-flex', alignItems: 'center'}}>
-                                            <div style={{height: '20px', width: '20px', borderRadius: '10px', background: 'yellow', marginRight: '1em'}}></div>  Credit score is  &nbsp;<b> good</b>.
-                                        </div>
-                                    </List.Item>
-                                    <List.Item>
-                                        <div style={{display: 'inline-flex', alignItems: 'center'}}>
-                                            <div style={{height: '20px', width: '20px', borderRadius: '10px', background: 'green', marginRight: '1em'}}></div> Credit score is &nbsp; <b> excellent</b>.
-                                        </div>
-                                    </List.Item>
-                                </List>
-                            </Popup>
-                        </h1>
-                    </div>
-                    <div style={{borderBottom: '2px dashed #efefef', marginBottom: '1em'}}>
-                        <Speedometer />
-                    </div>
-                    <div>
-                        <h1 className="main-body-header">
                             Contributing Factors for credit score
                         </h1>
                     </div>

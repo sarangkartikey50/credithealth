@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import LoanChart from './loan_chart';
 import { Popup, Icon } from 'semantic-ui-react';
 import LoanRecommendation from './loan_recommendation';
+import EmiNmiRatio from './emi_nmi_ratio';
 
 const data = [
     {
@@ -63,6 +64,9 @@ export default class Loan extends Component{
                             basic
                         /> */}
                     </h1>
+                </div>
+                <div className='emi-nmi-ratio-wrapper'>
+                        <EmiNmiRatio />
                 </div>
                 <div className="credability-chart-wrapper">
                     <LoanChart />

@@ -6,15 +6,15 @@ export default class Speedometer extends Component {
         return(
                 <div className="speedometer-wrapper">
                     <ReactSpeedometer
-                        value={710}
-                        segments={4}
-                        minValue={300}
-                        maxValue={900}
+                        value={71}
+                        segments={6}
+                        minValue={0}
+                        maxValue={100}
                         width={300}
                         height={250}
                         needleTransitionDuration={4000}
                         needleTransition='easeElastic'
-                        currentValueText='Your credit score: ${value}'
+                        currentValueText='Your risk score: ${value}'
                     />
                 </div>
         );

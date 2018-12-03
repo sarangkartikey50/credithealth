@@ -21,18 +21,18 @@ export default class Timeline extends Component{
     renderTimeline() {
         const { activeIndex } = this.state
         const data = [
-            {date: 'Oct-2017', cscore: '650', inc: false, summary: 'New credit account added.', new: true},
-            {date: 'Nov-2017', cscore: '670', inc: true, summary: 'Bills payed & EMIs settled on time.'},
-            {date: 'Dec-2017', cscore: '690', inc: true, summary: 'Bills payed & EMIs settled on time.'},
-            {date: 'Jan-2018', cscore: '710', inc: true, summary: 'Bills payed & EMIs settled on time.'},
-            {date: 'Feb-2018', cscore: '660', inc: false, summary: 'New credit account added.', new: true},
-            {date: 'Mar-2018', cscore: '680', inc: true, summary: 'Bills payed & EMIs settled on time.'},
-            {date: 'Apr-2018', cscore: '700', inc: true, summary: 'Bills payed & EMIs settled on time.'},
-            {date: 'May-2018', cscore: '670', inc: false, summary: 'You missed two bill payments.'},
-            {date: 'Jun-2018', cscore: '690', inc: true, summary: 'You have taken a car loan'},
-            {date: 'Jul-2018', cscore: '670', inc: false, summary: 'You missed two bill payments'},
-            {date: 'Aug-2018', cscore: '700', inc: true, summary: 'Bills payed & EMIs settled on time.'},
-            {date: 'Sep-2018', cscore: '710', inc: true, summary: 'Bills payed & EMIs settled on time.'},
+            {date: 'Oct-2017', cscore: '65', inc: false, summary: 'New credit account added.', new: true},
+            {date: 'Nov-2017', cscore: '67', inc: true, summary: 'Bills payed & EMIs settled on time.'},
+            {date: 'Dec-2017', cscore: '69', inc: true, summary: 'Bills payed & EMIs settled on time.'},
+            {date: 'Jan-2018', cscore: '71', inc: true, summary: 'Bills payed & EMIs settled on time.'},
+            {date: 'Feb-2018', cscore: '66', inc: false, summary: 'New credit account added.', new: true},
+            {date: 'Mar-2018', cscore: '68', inc: true, summary: 'Bills payed & EMIs settled on time.'},
+            {date: 'Apr-2018', cscore: '70', inc: true, summary: 'Bills payed & EMIs settled on time.'},
+            {date: 'May-2018', cscore: '67', inc: false, summary: 'You missed two bill payments.'},
+            {date: 'Jun-2018', cscore: '69', inc: true, summary: 'You have taken a car loan'},
+            {date: 'Jul-2018', cscore: '67', inc: false, summary: 'You missed two bill payments'},
+            {date: 'Aug-2018', cscore: '70', inc: true, summary: 'Bills payed & EMIs settled on time.'},
+            {date: 'Sep-2018', cscore: '71', inc: true, summary: 'Bills payed & EMIs settled on time.'},
         ];
 
         return data.map((row, index) => {
@@ -42,7 +42,7 @@ export default class Timeline extends Component{
                         <div className="timeline-head">
                             <h3 className="timeline-content-date">{row.date}{row.new ? <Image src={baby} height={25} width={25} style={{marginLeft: '5px'}} /> : ''}</h3>
                             <span className="timeline-head-divider">|</span>
-                            <div className="timeline-content-score">Credit Score: {row.cscore}{!row.inc ? <Icon name="arrow down" color="red"/> : <Icon name="arrow up" color="blue"/>}</div>
+                            <div className="timeline-content-score">Risk Score: {row.cscore}{!row.inc ? <Icon name="arrow down" color="red"/> : <Icon name="arrow up" color="blue"/>}</div>
                         </div>
                         <div className="timeline-content-summary">
                             <p>{row.summary}</p>

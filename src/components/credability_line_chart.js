@@ -42,18 +42,18 @@ export default class CredabilityLineChart extends Component{
 
     getData() {
         return [
-            {date: 'Oct-2017', cscore: '650', inc: false, summary: 'New credit account added.', new: true},
-            {date: 'Nov-2017', cscore: '670', inc: true, summary: 'Bills payed & EMIs settled on time.'},
-            {date: 'Dec-2017', cscore: '690', inc: true, summary: 'Bills payed & EMIs settled on time.'},
-            {date: 'Jan-2018', cscore: '710', inc: true, summary: 'Bills payed & EMIs settled on time.'},
-            {date: 'Feb-2018', cscore: '660', inc: false, summary: 'New credit account added.', new: true},
-            {date: 'Mar-2018', cscore: '680', inc: true, summary: 'Bills payed & EMIs settled on time.'},
-            {date: 'Apr-2018', cscore: '700', inc: true, summary: 'Bills payed & EMIs settled on time.'},
-            {date: 'May-2018', cscore: '670', inc: false, summary: 'You missed two bill payments.'},
-            {date: 'Jun-2018', cscore: '690', inc: true, summary: 'You have taken a car loan'},
-            {date: 'Jul-2018', cscore: '670', inc: false, summary: 'You missed two bill payments.'},
-            {date: 'Aug-2018', cscore: '700', inc: true, summary: 'Bills payed & EMIs settled on time.'},
-            {date: 'Sep-2018', cscore: '710', inc: true, summary: 'Bills payed & EMIs settled on time.'},
+            {date: 'Oct-2017', riskore: '65', inc: false, summary: 'New credit account added.', new: true},
+            {date: 'Nov-2017', riskore: '67', inc: true, summary: 'Bills payed & EMIs settled on time.'},
+            {date: 'Dec-2017', riskore: '69', inc: true, summary: 'Bills payed & EMIs settled on time.'},
+            {date: 'Jan-2018', riskore: '71', inc: true, summary: 'Bills payed & EMIs settled on time.'},
+            {date: 'Feb-2018', riskore: '66', inc: false, summary: 'New credit account added.', new: true},
+            {date: 'Mar-2018', riskore: '68', inc: true, summary: 'Bills payed & EMIs settled on time.'},
+            {date: 'Apr-2018', riskore: '70', inc: true, summary: 'Bills payed & EMIs settled on time.'},
+            {date: 'May-2018', riskore: '67', inc: false, summary: 'You missed two bill payments.'},
+            {date: 'Jun-2018', riskore: '69', inc: true, summary: 'You have taken a car loan'},
+            {date: 'Jul-2018', riskore: '67', inc: false, summary: 'You missed two bill payments.'},
+            {date: 'Aug-2018', riskore: '70', inc: true, summary: 'Bills payed & EMIs settled on time.'},
+            {date: 'Sep-2018', riskore: '71', inc: true, summary: 'Bills payed & EMIs settled on time.'},
         ];
     }
 
@@ -63,11 +63,11 @@ export default class CredabilityLineChart extends Component{
                 <LineChart width={window.innerWidth - 370} height={400} data={this.getData()}
                             margin={{top: 5, right: 20, left: 0, bottom: 5}}>
                     <XAxis dataKey="date"/>
-                    <YAxis label={{ value: 'Credit Score', angle: -90, position: 'insideLeft' }}  domain={[300, 900]} />
+                    <YAxis label={{ value: 'Riskore', angle: -90, position: 'insideLeft' }}  domain={[0, 100]} />
                     <CartesianGrid strokeDasharray="3 3"/>
                     <Tooltip content={<CustomToolTip/>}/>
-                    <ReferenceLine y={700} strokeWidth={3} label="Threshold (700)" stroke="#21ba45"/>
-                    <Line dot={<CustomizedDot />} type="monotone" dataKey="cscore" strokeWidth={3} stroke="#8884d8" />
+                    <ReferenceLine y={70} strokeWidth={3} label="Threshold (70)" stroke="#21ba45"/>
+                    <Line dot={<CustomizedDot />} type="monotone" dataKey="riskore" strokeWidth={3} stroke="#8884d8" />
                 </LineChart>
                 <p style={{textAlign: 'center', marginLeft: '10%'}}>Months</p>
             </div>

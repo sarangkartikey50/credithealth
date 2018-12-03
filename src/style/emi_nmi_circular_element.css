@@ -1,0 +1,80 @@
+.emi-nmi-circular-element-large{
+    height: 150px;
+    width: 150px;
+    background: red !important;
+    border-radius: 500rem !important;
+    margin: 5px !important;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px !important;
+
+}
+
+.emi-nmi-circular-element-small{
+    border-radius: 500rem !important;
+    margin: 5px !important;
+    height: 110px;
+    width: 110px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px !important;
+
+}
+
+.greater-than-value{
+    margin: 0px !important;
+    text-align: center !important;
+    color: white;
+}
+
+.lesser-than-value{
+    margin: 0px !important;
+    text-align: center !important;
+    color: white;
+
+}
+
+.emi-nmi-circular-elements-wrapper{
+    display: inline-flex !important;
+    margin-top: 2em !important;
+    align-items: center;
+}
+
+.inner-content {
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    position: relative;
+}
+
+.first-gradient{
+    background: #1488CC !important;  /* fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #2B32B2, #1488CC) !important;  /* Chrome 10-25, Safari 5.1-6 
+background: linear-gradient(to right, #2B32B2, #1488CC) !important; W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.second-gradient{
+    background: #00c088 !important;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #38ef7d, #11998e) !important;  /* Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to right, #38ef7d, #11998e) !important; W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.third-gradient{
+    background: #ffce00 !important;  /* fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #799F0C, #FFE000) !important;  /* Chrome 10-25, Safari 5.1-6 
+background: linear-gradient(to right, #799F0C, #FFE000) !important; W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.fourth-gradient{
+    background: orange !important;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a) !important;  /* Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to right, #f7b733, #fc4a1a) !important; W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.five-gradient{
+    background: #F45C43 !important;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #b31217, #e52d27) !important;  /* Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to right, #b31217, #e52d27) !important; W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}

@@ -210,3 +210,23 @@
   top: -5px;
   margin-left: 1em;
 }
+
+.emi-nmi-header{
+  color: #4e4e4e;
+  margin: 1em 0em 0em 1em !important;
+  text-align: center;
+}
+
+.emi-nmi-subheader{
+  font-size: 1em;
+  font-weight: 500;
+  color: #696969;
+  margin-left: 18px !important;
+  text-align: center;
+}
+
+.emi-nmi-ratio-wrapper{
+  margin: 5em 0;
+  padding-bottom: 5em;
+  border-bottom: 1px dashed #efefef;
+}
