@@ -28,7 +28,7 @@ class CustomToolTip extends Component {
             return (
             <div className="custom-tooltip">
                 <p className="label" style={{fontWeight: '600'}}>{`${label}`}</p>
-                <p className="intro" style={{fontWeight: '600', color: 'black', marginTop: '-10px'}}>cscore: {`${payload[0].value}`} {!payload[0].payload.inc ? <Icon name="arrow down" color="red"/> : <Icon name="arrow up" color="blue"/>}</p>
+                <p className="intro" style={{fontWeight: '600', color: 'black', marginTop: '-10px'}}>Risk score: {`${payload[0].value}`} {!payload[0].payload.inc ? <Icon name="arrow down" color="red"/> : <Icon name="arrow up" color="blue"/>}</p>
                 <p className="desc" style={{fontWeight: '600', color: 'black', marginTop: '-10px'}}>{payload[0].payload.summary}</p>
             </div>
             );
