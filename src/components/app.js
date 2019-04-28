@@ -24,10 +24,10 @@ class App extends Component {
               </Sticky>
             </div>
             <div className="main-body-wrapper">
-              <Route exact path='/' component={Home} />
-              <Route path='/credability' component={Credability} />
-              <Route path='/loan' component={Loan} />
-              <Route path='/subscriptions' component={Subscribe} />
+              <Route exact path='/credithealth/' component={Home} />
+              <Route path='/credithealth/credability' component={Credability} />
+              <Route path='/credithealth/loan' component={Loan} />
+              <Route path='/credithealth/subscriptions' component={Subscribe} />
               {/* <div style={{marginBottom: 50}}>
                 <div className='message-wrapper' style={{margin: '2em 90px'}}>
                   <Message style={{fontFamily: 'Montserrat'}}
