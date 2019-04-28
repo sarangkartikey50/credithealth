@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/credithealth/precache-manifest.bec2e3f35113bc9e1532ef1f95d2bf48.js"
+  "/credithealth/precache-manifest.e31cdf3ab785d2b49a8dbd6f2df66cd7.js"
 );
 
 workbox.clientsClaim();
