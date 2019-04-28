@@ -2,6 +2,7 @@
   "name": "cscore",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sarangkartikey50.github.io/credithealth",
   "dependencies": {
     "britecharts-react": "^0.4.1",
     "react": "^16.5.2",
