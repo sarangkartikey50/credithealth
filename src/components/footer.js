@@ -7,7 +7,7 @@ export default class Footer extends Component {
             <div style={{padding: '2em 5em', borderTop: '1px solid #efefefc4'}}>
                 <List floated='right' horizontal>
                 <List.Item disabled href='#' style={{fontWeight: '500'}}>
-                    © Envestnet | Yodlee, Inc.
+                    © IWH, Inc.
                 </List.Item>
                 <List.Item href='#' style={{fontWeight: '500'}}>Terms & Conditions</List.Item>
                 <List.Item href='#' style={{fontWeight: '500'}}>Privacy Notice</List.Item>

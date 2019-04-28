@@ -63,7 +63,7 @@ export default class CredabilityLineChart extends Component{
                 <LineChart width={window.innerWidth - 370} height={400} data={this.getData()}
                             margin={{top: 5, right: 20, left: 0, bottom: 5}}>
                     <XAxis dataKey="date"/>
-                    <YAxis label={{ value: 'Riskore', angle: -90, position: 'insideLeft' }}  domain={[0, 100]} />
+                    <YAxis label={{ value: 'Risk Score', angle: -90, position: 'insideLeft' }}  domain={[0, 100]} />
                     <CartesianGrid strokeDasharray="3 3"/>
                     <Tooltip content={<CustomToolTip/>}/>
                     <ReferenceLine y={70} strokeWidth={3} label="Threshold (70)" stroke="#21ba45"/>
